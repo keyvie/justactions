@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "justactions",
+	"version": "${version}",
+	"name": "Just Actions",
+	"description": "A simple mod that allows you to map actions",
+	"authors": [
+		"keyvie"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/justactions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gg.wzrds.justactions.JustActions"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
